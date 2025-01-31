@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="./assets/odus.jpeg"
+        alt="Profile Picture"
+        class="profile-picture"
+        data-testid="profilePicture"
+      />
+      <h2 class="full-name" data-testid="fullName">Oluwatobi Odubote</h2>
+      <p class="job-title" data-testid="jobTitle">Front-End Developer</p>
+      <p class="short-bio" data-testid="shortBio">
+        I am Passionate about creating beautiful and functional websites and web
+        applications. Enthusiastic about HTML, CSS & JavaScript, React.Js and
+        Angular. I love cooking, Playing video games, Learning new things,
+        Surfing the internet, Listening to music and Watching anime. I love
+        Playing sports like football, basketball, volley ball, and riding
+        bicycle.
+      </p>
+
+      <p class="current-location" data-testid="currentLocation">
+        Lagos, Nigeria
+      </p>
+      <p class="email" data-testid="emailAddress">
+        <a href="tobiodubote@gmail.com">tobiodubote@gmail.com</a>
+      </p>
+
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://github.com/Odusdegreat" target="_blank">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/oluwatobi-odubote-345490276/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://x.com/Odusthegreat0" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/odusthegreat/" target="_blank"
+          >Instagram</a
+        >
+      </div>
+
+      <p class="utc-time" data-testid="currentTimeUTC">
+        UTC Time: <span id="utcTime"></span>
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
